@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: coral;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background: #ccc;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+article2 {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: grey;
+  height: 200px;
+}
+
+
+aside {
+  text-align: center;
+ 
+ 
+}
+
+
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: coral;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h1>Timo Tran Oy</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index2.html">Index</a></li>
+      <li><a href="second2.html">Second</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Link description</h1>
+    <p>Index is this page.</p>
+    <p>Second is page of previous assingment.</p>
+  </article>
+
+  <article2>
+    <h1>Article</h1>
+    <p>This is very cool course.</p>
+    <p>Amazing</p>
+  </article2>
+
+
+	<aside>
+	<h1>Aside</h1>
+	<p>This is indeed aside</p>
+	</aside>
+
+
+</section>
+
+<footer>
+  <p>Jalusta</p>
+</footer>
+
+</body>
+</html>

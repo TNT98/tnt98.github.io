@@ -1,0 +1,14 @@
+body {background-color: coral;}
+
+h1 {
+	border: 1px solid red;
+	width: 550px;
+}
+
+p {
+  border-radius: 50px;
+  background:orange;
+  padding: 30px;
+  width: 200px;
+  height: 10px;
+}
