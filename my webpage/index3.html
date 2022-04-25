@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Links to websites</title>
+<style>
+
+
+
+body {
+    background-image: url(background2.jpg); /*taustakuva*/
+    background-repeat: no-repeat;
+    background-position: center; /* keskittää kuvan */
+    background-size: auto; /* laajentaa taustakuvan sopivaan muotoon */
+}
+
+.container {
+  width: 100%; 
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-container {
+  text-align: center;
+  width: 100%;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  jusify-content: center;
+  align-items: center;
+}
+
+.link {
+  min-width: 50% !important;
+}
+
+@media (min-width: 1200px) .container {
+  max-width: 1140px;
+}
+@media (min-width: 992px) .container {
+  max-width: 960px;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+  }
+
+.link {
+    width: 100%;
+  }
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+</style>
+  </head>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="index2.html">News</a></li>
+  <li><a href="index3.html">Merch</a></li>
+  <li><a href="index4.html">About me</a></li>
+</ul>
+  
+  <body class="w3-black">
+    <!-- Content container -->
+    <div class="container">
+
+      
+    <div class="image-container">
+      <p class="w3-large"><strong><h2>This is up coming merch store</h2></strong></p>
+     <p class="w3-large"><strong><h2>Coming soon in future</h2></strong></p>
+      </div>
+</div>
+
+
+
+ 
+
+  </body>  
+</html>
